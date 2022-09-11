@@ -14,11 +14,11 @@ public class BMI {
         height = scanner.nextDouble();
 
         bmi = weight/Math.pow(height, 2);
-        if (bmi < 18.5)
+        if (bmi <= 18.5)
             System.out.printf("Chi so BMI cua ban la: "+bmi+ " Underweight");
-        else if (bmi < 25.0)
+        else if (bmi <= 24.9)
             System.out.printf("Chi so BMI cua ban la: "+bmi+ " Normal");
-        else if (bmi <30.0)
+        else if (bmi <=29.9)
             System.out.printf("Chi so BMI cua ban la: "+bmi+ " Overweight");
         else
             System.out.printf("Chi so BMI cua ban la: "+bmi+ " Obese");

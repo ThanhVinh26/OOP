@@ -13,32 +13,30 @@ public class SoSanh {
         System.out.print("Pls nhap chieu cao (in meter): ");
         height = scanner.nextDouble();
 
-        bmi = weight/Math.pow(height, 2);
+        bmi = Math.abs(weight/Math.pow(height, 2));
         double delta = 0;
-        if (bmi < 18.5) {
-            delta = 18.5 - bmi;
-
+        double m,a,b;
+        Math.abs(a=18.5-bmi);
+        Math.abs(b=bmi-24.9);
+        if (bmi <= 18.5) {
             System.out.println("Chi so BMI cua ban la: "+bmi+ " Underweight");
 
-        } else if (bmi < 25.0) {
-            delta = 25.0 - bmi;
+        } else if (bmi <= 24.9) {
             System.out.println("Chi so BMI cua ban la: " + bmi + " Normal");
         }
-        else if (bmi <30.0) {
-            delta = 30.0 - bmi;
+        else if (bmi <=29.9) {
             System.out.println("Chi so BMI cua ban la: "+ bmi + " Overweight");
         }
         else{
-                delta = 40.0 - bmi;
-                System.out.println("Chi so BMI cua ban la: " + " " + bmi + " " + " Obese");
+                System.out.println("Chi so BMI cua ban la: " + bmi + " Obese");
             }
 
-        if(delta<0)
+        if(bmi<18.5)
         {
-            System.out.println("Ban can giam: "+ Math.abs(delta));
+            System.out.println("Ban can tang them : "+ Math.abs(a));
         }
         else
-            System.out.println("Ban can tang them "+ Math.abs(delta));
+            System.out.println("Ban can giam đi "+ Math.abs(b));
     }
 
 
