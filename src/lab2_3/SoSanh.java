@@ -18,7 +18,7 @@ public class SoSanh {
         double m,a,b;
         Math.abs(a=18.5-bmi);
         Math.abs(b=bmi-24.9);
-        if (bmi <= 18.5) {
+        if (bmi < 18.5) {
             System.out.println("Chi so BMI cua ban la: "+bmi+ " Underweight");
 
         } else if (bmi <= 24.9) {
@@ -35,8 +35,14 @@ public class SoSanh {
         {
             System.out.println("Ban can tang them : "+ Math.abs(a));
         }
-        else
+        else if(bmi<=24.9)
+        {
+            System.out.println("Ban đẹp rồi tp thể dục là được");
+        }
+        else{
             System.out.println("Ban can giam đi "+ Math.abs(b));
+        }
+
     }
 
 
