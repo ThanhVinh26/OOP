@@ -13,9 +13,9 @@ public class Sapxep {
         for (i = 0; i < num; i++)
             a[i] = input.nextInt();
         {
-            for(i=0;i<5;i++)
+            for(i=0;i<num;i++)
             {
-                for (j=0;j<5;j++)
+                for (j=0;j<num;j++)
                 {
                     if(a[j]>a[i])
                     {

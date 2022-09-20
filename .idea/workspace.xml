@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab2_1">
-      <change afterPath="$PROJECT_DIR$/src/Lab_3/ChanleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_3/MaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_3/Sapxep.java" afterDir="false" />
+    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_3/Sapxep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_3/Sapxep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662887003420</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab_3">
+      <created>1663117703642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663117703642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +102,7 @@
     <MESSAGE value="kq" />
     <MESSAGE value="Lab2_3" />
     <MESSAGE value="Lab2_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab2_1" />
+    <MESSAGE value="Lab_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_3" />
   </component>
 </project>
