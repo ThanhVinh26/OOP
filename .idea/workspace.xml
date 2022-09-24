@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_3_ne">
-      <change afterPath="$PROJECT_DIR$/src/lab_5/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_5/MaxMin.java" afterDir="false" />
+    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_5">
+      <change afterPath="$PROJECT_DIR$/src/lab_6/CheckPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6/ChuHaySo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6/Tongphut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6/livk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +43,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxMin">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_5.Array" />
+  <component name="RunManager" selected="Application.livk">
+    <configuration name="CheckPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_6.CheckPass" />
       <module name="bai1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_5.*" />
+          <option name="PATTERN" value="lab_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChuHaySo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_6.ChuHaySo" />
+      <module name="bai1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,10 +83,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tongphut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_6.Tongphut" />
+      <module name="bai1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="livk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_6.livk" />
+      <module name="bai1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.livk" />
+        <item itemvalue="Application.ChuHaySo" />
+        <item itemvalue="Application.Tongphut" />
+        <item itemvalue="Application.CheckPass" />
         <item itemvalue="Application.MaxMin" />
-        <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663676797683</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab_5">
+      <created>1663723157790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663723157790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +197,7 @@
     <MESSAGE value="Lab2_1" />
     <MESSAGE value="Lab_3" />
     <MESSAGE value="Lab_3_ne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_3_ne" />
+    <MESSAGE value="Lab_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_5" />
   </component>
 </project>
