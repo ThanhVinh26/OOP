@@ -40,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.livk">
+  <component name="RunManager" selected="Application.Tongphut">
     <configuration name="CheckPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_6.CheckPass" />
       <module name="bai1" />
@@ -108,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.livk" />
-        <item itemvalue="Application.ChuHaySo" />
         <item itemvalue="Application.Tongphut" />
+        <item itemvalue="Application.ChuHaySo" />
+        <item itemvalue="Application.livk" />
         <item itemvalue="Application.CheckPass" />
         <item itemvalue="Application.MaxMin" />
       </list>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664010311740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lab_6">
+      <created>1664068831008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664068831008</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
