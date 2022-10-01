@@ -29,7 +29,7 @@ public class AnimalController {
                 animal="dog";
             }
 
-            System.out.println("Winer is: " +animal+ ". speed: " +winer+"km/h");
+            System.out.println("Winer is: " +animal+ "+ speed: " +winer+"km/h");
             round++;
         }while(round<3);
     }
