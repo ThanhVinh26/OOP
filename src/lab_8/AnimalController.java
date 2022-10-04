@@ -6,31 +6,32 @@ import java.util.HashMap;
 import java.util.List;
 
 public class AnimalController {
-    public static void main(String[] args) {
-        //AnimalController aniController = new AnimalController();
-        //List<animal> aniList = Arrays.asList(tiger, horse, dog);
-        int round=0;
-        do {
-            int speed = new Tiger().getSpeed();
-            int speed1 = new Horse().getSpeed();
-            int speed2 = new Dog().getSpeed();
-            int winer=0;
-            String animal;
-            if(speed>speed1)
-            {
-                winer=speed;
-                animal="tiger";
-            }else{
-                winer=speed1;
-                animal="horse";
-            }
-            if (winer < speed2){
-                winer = speed2;
-                animal="dog";
-            }
+    public animal speed(List<animal> animalsList)
+    {
+        int winner = animalsList.get(0).getSpeed();
+       int indexspeed = 0;
 
-            System.out.println("Winer is: " +animal+ "+ speed: " +winer+"km/h");
-            round++;
-        }while(round<3);
+               for (int i = 0; i < animalsList.size(); i++) {
+            if (winner < animalsList.get(i).getSpeed())
+            {
+                winner = animalsList.get(i).getSpeed();
+                indexspeed = i;
+            }
+        }
+        return animalsList.get(indexspeed);
+    }
+
+    public static void main(String[] args)
+    {
+
+          animal tiger = new Tiger();
+          animal horse = new Horse();
+          animal dog = new Dog();
+        AnimalController animalsController = new AnimalController();
+        List<animal> animalsList = Arrays.asList(dog,horse,tiger);
+        animal winner = animalsController.speed(animalsList);
+        String animalWinner = winner.getClass().getSimpleName();
+        String speedAnimalWinner = Integer.toString(winner.getSpeed());
+        System.out.print("Winner is " +animalWinner +  "+ with speed:" + speedAnimalWinner) ;
     }
 }

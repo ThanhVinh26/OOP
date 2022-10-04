@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_7">
-      <change afterPath="$PROJECT_DIR$/src/lab_8/AnimalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/Fulltime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/TinhSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_8/animal.java" afterDir="false" />
+    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_8/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_8/AnimalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664329028290</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lab_8">
+      <created>1664633108534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664633108534</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Lab_8">
+      <created>1664633174749</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664633174749</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +253,7 @@
     <MESSAGE value="Lab_6" />
     <MESSAGE value="Lab_5" />
     <MESSAGE value="Lab_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_7" />
+    <MESSAGE value="Lab_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_8" />
   </component>
 </project>
