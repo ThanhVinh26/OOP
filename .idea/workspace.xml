@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_8">
+      <change afterPath="$PROJECT_DIR$/src/lab_9/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_9/AnimalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_9/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_9/Falcon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_9/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_9/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_8/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_8/AnimalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AnimalController">
+  <component name="RunManager" selected="Application.lab_9.AnimalController">
     <configuration name="AnimalController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_8.AnimalController" />
       <module name="bai1" />
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="livk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_6.livk" />
+    <configuration name="lab_9.AnimalController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_9.AnimalController" />
       <module name="bai1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_6.*" />
+          <option name="PATTERN" value="lab_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab_9.AnimalController" />
         <item itemvalue="Application.AnimalController" />
         <item itemvalue="Application.TinhSalary" />
         <item itemvalue="Application.Salary" />
         <item itemvalue="Application.MaxMin" />
-        <item itemvalue="Application.livk" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664633174749</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lab_8">
+      <created>1664889786718</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664889786718</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
