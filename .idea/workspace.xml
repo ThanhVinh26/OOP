@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_8">
-      <change afterPath="$PROJECT_DIR$/src/lab_9/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_9/AnimalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_9/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_9/Falcon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_9/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_9/Tiger.java" afterDir="false" />
+    <list default="true" id="877375ab-9919-4594-8cd7-812f8b8f4919" name="Changes" comment="Lab_9">
+      <change afterPath="$PROJECT_DIR$/src/lab_10/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_10/AnimslContronller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_10/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_10/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_10/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_9/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_9/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_9/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_9/AnimalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lab_9.AnimalController">
+  <component name="RunManager" selected="Application.AnimslContronller">
     <configuration name="AnimalController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_8.AnimalController" />
       <module name="bai1" />
@@ -59,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_5.MaxMin" />
+    <configuration name="AnimslContronller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_10.AnimslContronller" />
       <module name="bai1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_5.*" />
+          <option name="PATTERN" value="lab_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimslContronller" />
         <item itemvalue="Application.lab_9.AnimalController" />
         <item itemvalue="Application.AnimalController" />
         <item itemvalue="Application.TinhSalary" />
         <item itemvalue="Application.Salary" />
-        <item itemvalue="Application.MaxMin" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664889786718</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lab_9">
+      <created>1664956158761</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664956158761</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +274,7 @@
     <MESSAGE value="Lab_5" />
     <MESSAGE value="Lab_7" />
     <MESSAGE value="Lab_8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_8" />
+    <MESSAGE value="Lab_9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_9" />
   </component>
 </project>

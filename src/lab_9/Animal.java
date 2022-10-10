@@ -1,5 +1,7 @@
 package lab_9;
 
+import java.security.SecureRandom;
+
 public class Animal {
     private String name;
     private int speed;
@@ -53,7 +55,7 @@ public class Animal {
         }
         public Builder setSpeed(int Speed)
         {
-            this.speed=speed;
+            this.speed=new SecureRandom().nextInt(Speed);
             return this;
 
         }

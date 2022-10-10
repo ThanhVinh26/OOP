@@ -34,14 +34,13 @@ public class AnimalController {
 
     public static void main(String[] args) {
         AnimalController animalController=new AnimalController();
-
-        Animal snake = new Animal.Builder().isFlyable(false).build();
-        Animal tiger = new Animal.Builder().setSpeed(25).isFlyable(false).build();
-        Animal falcon = new Animal.Builder().setSpeed(27).isFlyable(true).build();
-        Animal eagle = new Animal.Builder().setSpeed(23).isFlyable(true).build();
+        Animal snake = new Animal.Builder().setName("snake").setSpeed(21).isFlyable(false).build();
+        Animal tiger = new Animal.Builder().setSpeed(25).setName("tiger").isFlyable(false).build();
+        Animal falcon = new Animal.Builder().setSpeed(27).setName("falcon").isFlyable(true).build();
+        Animal eagle = new Animal.Builder().setSpeed(23).setName("eagle").isFlyable(true).build();
         List<Animal> animalList= Arrays.asList(tiger,snake,falcon,eagle);
         Animal winner = animalController.Speed(animalList);
-        String animalWinner = winner.getClass().getSimpleName();
+        String animalWinner = winner.getName();
         String speedAnimalWinner = Integer.toString(winner.getSpeed());
         System.out.print("Winner is " +animalWinner +  "+ with speed:" + speedAnimalWinner) ;
 
